@@ -7,7 +7,7 @@
 
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/output.css"  type="text/css" />
 
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -15,8 +15,8 @@
 
 </head>
 
-<body>
+<body class="md:container md:mx-auto px-4">
 
 {{ partial "nav.html" . }}
 
-<main class="content">
+<main class="content px-2">

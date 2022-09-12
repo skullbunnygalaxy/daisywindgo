@@ -1,6 +1,7 @@
 baseURL = "https://mynewhugosite.com"
+languageCode = 'en-us'
 title = "My New Hugo Site"
-theme = "hugo-starter"
+theme = "daisywindstart"
 
 [menu]
   [[menu.main]]
