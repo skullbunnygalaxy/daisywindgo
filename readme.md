@@ -30,9 +30,13 @@ cp -r exampleSite/* ./
 To learn more about building themes in Hugo, refer to Hugo's [templating documentation](https://gohugo.io/templates/).
 
 ## NPM Dependencies
-├── daisyui@2.27.0
-├── npm-run-all@4.1.5
-└── tailwindcss@3.1.8
+- daisyui@2.27.0
+- npm-run-all@4.1.5
+- tailwindcss@3.1.8
+- @tailwindcss/aspect-ratio@0.4.2
+- @tailwindcss/typography@0.5.7
+
+
 
 ## Commands
 - `npm run dev`
