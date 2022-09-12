@@ -28,6 +28,8 @@ If you'd like some example content and an example config file to get started, yo
 cp -r exampleSite/* ./
 ```
 
+Finally install npm dependencies by running `npm install`.
+
 To learn more about building themes in Hugo, refer to Hugo's [templating documentation](https://gohugo.io/templates/).
 
 ## NPM Dependencies
